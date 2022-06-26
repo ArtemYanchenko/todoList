@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import './App.css';
 import Todolist, {TaskType} from './Todolist';
 import {v1} from 'uuid';
-import todolist from './Todolist';
 
 export type FilterValuesType = 'all' | 'complited' | 'active';
 
@@ -79,9 +78,7 @@ function App() {
 
     return (
         <div className="App">
-
             {
-
                 todolists.map((tl) => {
                     let taskForTodoList = tasksObj[tl.id];
                     if (tl.filter === 'complited') {

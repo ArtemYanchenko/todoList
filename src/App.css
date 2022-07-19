@@ -1,46 +1,4 @@
-button:hover {
-  background-color: lightyellow;
-  border-radius: 5px;
-}
-
-
-
 .App {
-  padding: 30px;
-  display: flex;
+
 }
 
-.App > div {
-  margin-right: 50px;
-}
-
-.tasks {
-  list-style: none;
-}
-
-.checked {
-  /*text-decoration: line-through;*/
-  opacity: .5;
-}
-
-.active {
-  background-color: yellow;
-  border-radius: 5px;
-  border: 1px solid black;
-}
-
-.error {
-  border: 1px solid red ;
-  border-radius: 2px;
-  outline: none;
-}
-
-.errorMessage {
-  color: red;
-  font-weight: 500;
-}
-
-.emptyError {
-  color: green;
-  text-transform: uppercase;
-}
